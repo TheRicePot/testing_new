@@ -1,2 +1,2 @@
-# moonbuddies.net
-just hosting my site on here, ignore this repo
+testing site
+[TEMPLATE BY OUTSPECT. PLEASE DONT SUE.]
