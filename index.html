@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
 
-  <title>test</title>
+  <title>Project Chaos BETA Site</title>
 </head>
 <body>
   <div class="container">
-    <h1 class="title">Gba Chaos</h1>
+    <h1 class="title">Project Chaos</h1>
     <div class="boxes">
       <div class="box">
         <h2>sorry outspect lmao</h2>
@@ -18,11 +18,16 @@
         <a href="https://spezz.exchange/store/store/product/164-moon-mod-menu/" class="button">Buy Now</a>
       </div>
       <div class="box">
-        <h2>Join Our Discord</h2>
-        <p>Stay in the loop by joining our Discord. Connect with fellow Moon Buddies, receive the latest updates, and never miss a beat.</p>
-        <a href="https://discord.gg/moonbuddies" class="button">Join Discord</a>
+        <h2>Enter [NO ABOUT:BLANK CLOAKING]</h2>
+        <p>Enter Project Chaos GBA Emulator</p>
+        <a href=https://pr0j3ct-ch4os.github.io/core_chaos/" class="button">Enter Chaos</a>
       </div>
       <div class="box">
+        <h2>Normal Site</h2>
+        <p>go back to main website [recommended] </p>
+        <div>
+          <a href="https://pr0j3ct-ch4os.github.io" class="button">Normal Site</a>
+        </div>
         
       </div>
     </div>
@@ -37,11 +42,11 @@
           </tr>
           <tr>
           <tr>
-            <td>November 8th</td>
-            <td>Latest</td>
+            <td>November 29th</td>
+            <td>0.5.5</td>
             <td>
               <ul>
-                <li><span class="green-text">[0.5.5] </span>Website Redesign n stuff</li>
+                <li><span class="green-text">[+] </span>Renamed from GBA Chaos to Project Chaos</li>
               </ul>
             </td>
           </tr>
@@ -51,33 +56,14 @@
   </div>
 
   <script>
-    cript>
-      var urlObj = new window.URL(window.location.href);
-      var url = "https://pr0j3ct-ch4os.github.io/core_chaos/";
-      if (url) {
-        var win;
- 
-        document.querySelector('button').onclick = function() {
-          if (win) {
-            win.focus();
-          } else {
-            win = window.open();
-            win.document.body.style.margin = '0';
-            win.document.body.style.height = '100vh';
-            var iframe = win.document.createElement('iframe');
-            iframe.style.border = 'none';
-            iframe.style.width = '100%';
-            iframe.style.height = '100%';
-            iframe.style.margin = '0';
-            iframe.src = url;
-            win.document.body.appendChild(iframe);
-          }
-          document.querySelector('button').style.bacground = 'grey';
-          document.querySelector('button').innerHTML = "Play Now";
-        };
+    const resetButton = document.getElementById("reset-hwid-button");
+    const hwidInput = document.getElementById("hwid-input");
+
+    resetButton.addEventListener("click", function () {
+      const userInput = hwidInput.value;
+      if (userInput) {
+        window.location.href = `https://www.google.com/search?q=${userInput}`;
       }
- 
-    </script>
     });
   </script>
 </body>
