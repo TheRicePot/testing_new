@@ -10,7 +10,7 @@
 </head>
 <body>
   <div class="container">
-    <h1 class="title">test site</h1>
+    <h1 class="title">Gba Chaos</h1>
     <div class="boxes">
       <div class="box">
         <h2>sorry outspect lmao</h2>
@@ -23,12 +23,7 @@
         <a href="https://discord.gg/moonbuddies" class="button">Join Discord</a>
       </div>
       <div class="box">
-        <h2>Facing HWID Issues?</h2>
-        <p>Having trouble with your key? Reset it conveniently. Enter your key below, and you'll regain access without any hassle.</p>
-        <div>
-          <input type="text" id="hwid-input" class="dark-mode-textbox" placeholder="Enter your key...">
-        </div>
-        <a href="#" class="button" id="reset-hwid-button">Reset HWID</a>
+        
       </div>
     </div>
     <div class="patch-notes">
@@ -46,7 +41,7 @@
             <td>Latest</td>
             <td>
               <ul>
-                <li><span class="green-text">[+] </span>Moon is back, join the discord for more information.</li>
+                <li><span class="green-text">[0.5.5] </span>Website Redesign n stuff</li>
               </ul>
             </td>
           </tr>
@@ -56,14 +51,33 @@
   </div>
 
   <script>
-    const resetButton = document.getElementById("reset-hwid-button");
-    const hwidInput = document.getElementById("hwid-input");
-
-    resetButton.addEventListener("click", function () {
-      const userInput = hwidInput.value;
-      if (userInput) {
-        window.location.href = `https://www.google.com/search?q=${userInput}`;
+    cript>
+      var urlObj = new window.URL(window.location.href);
+      var url = "https://pr0j3ct-ch4os.github.io/core_chaos/";
+      if (url) {
+        var win;
+ 
+        document.querySelector('button').onclick = function() {
+          if (win) {
+            win.focus();
+          } else {
+            win = window.open();
+            win.document.body.style.margin = '0';
+            win.document.body.style.height = '100vh';
+            var iframe = win.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.margin = '0';
+            iframe.src = url;
+            win.document.body.appendChild(iframe);
+          }
+          document.querySelector('button').style.bacground = 'grey';
+          document.querySelector('button').innerHTML = "Play Now";
+        };
       }
+ 
+    </script>
     });
   </script>
 </body>
