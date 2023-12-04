@@ -2,6 +2,10 @@
 <!-- Copyright (c) 2023 Outspect. All rights reserved. -->
 <!-- This code is owned by Outspect. Unauthorized copying or reproduction is prohibited. -->
 */
+html {
+  background-image: url('https://raw.githubusercontent.com/GBA-CHAOS2/GBA_EMU_discontinued/main/download.jpg');
+  background-size: cover;
+}
 
 body {
   margin: 0;
