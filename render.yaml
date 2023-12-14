@@ -1,5 +1,0 @@
-services:
-  - type: web
-    name: projectchaos
-    env: buildpack
-    plan: free
