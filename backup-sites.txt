@@ -1,4 +1,5 @@
 Current Backups (as of december 14th 2023)
 
-https://pr0j3ct-ch4os.koyeb.app/ [NOT WORKING]
+koyeb broken :(
 https://pr0j3ct-ch4os.netlify.app
+https://pr0j3ct-ch4os-production.up.railway.app
