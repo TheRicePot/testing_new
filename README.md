@@ -1,4 +1,4 @@
-[![Header image](https://pr0j3ct-ch4os.github.io/silly.png)](https://pr0j3ct-ch4os.github.io/)
+[![Header image](https://pr0j3ct-ch4os.netlify.app/silly.png)](https://pr0j3ct-ch4os.github.io/)
 
 
 
