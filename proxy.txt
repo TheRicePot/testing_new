@@ -1,24 +1,25 @@
 
-<p>Here is a list of proxys that you can use!</p>
-<p>reminder that you cant leave this page due to errors inside it!<p>
-<p>Interstellar</p>
+Here is a list of proxys that you can use!
+reminder that you cant leave this page due to errors inside it!
+Interstellar
 -------------------------------------------
 
-<p>texas-history.vercel.app</p>
-<p>math-lessons.vercel.app</p>
-<p>dentonisd-instructure.vercel.app</p>
-<p>ixl-com.vercel.app</p>
+texas-history.vercel.app
+math-lessons.vercel.app
+dentonisd-instructure.vercel.app
+ixl-com.vercel.app
 -------------------------------------------
-<p>Metallic</p>
-<p>usemetallic.com</p>
-<p>(stil havent found more, notify me at projectchaos170@gmail.com if u find/make more!)<p>
+Metallic (blocked almost everywhere)
+usemetallic.com
+(stil havent found more, notify me at projectchaos170@gmail.com if u find/make more!)
 ------------------------------------------- 
-<p>DogeSurf</p>
+DogeSurf
 
-<p>shiba-coin-prox.vercel.app</p>shiba-coin-prox.vercel.app
-<p>doges.vercel.app</p>
-<p>ultra-doge-coin.vercel.app</p>
-<p>dogesurf.app/app</p>
-<p>surfdoge.pro</p>
+shiba-coin-prox.vercel.app
+
+doges.vercel.app
+ultra-doge-coin.vercel.app
+dogesurf.app/app
+surfdoge.pro
 
 Notify me at projectchaos170@gmail.com for more proxys for me to add!!!!1
