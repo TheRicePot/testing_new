@@ -6,18 +6,28 @@
     <title>Project Chaos</title>
 </head>
 <body>
-    <h1>Opening in about:blank...</h1>
+    <h1>Opening in about blank...</h1>
 
     <!-- Your script goes here -->
     <script>
         function openGame() {
             var win = window.open();
-            var url = "https://pr0j3ct-ch4os.github.io/index2.html";
+            var url = "https://thericepot.github.io/FNAF2";
             var iframe = win.document.createElement('iframe');
             iframe.style.width = "100%";
             iframe.style.height = "100%";
             iframe.style.border = "none";
             iframe.src = url;
+
+            // Check if the iframe is loaded successfully
+            iframe.onload = function() {
+                // Check if the content is blocked
+                if (iframe.contentDocument && iframe.contentDocument.body.innerHTML.includes("BLOCKED_BY_CLIENT")) {
+                    alert("About:blank blocked by browser, please enable pop ups!");
+                    win.close(); // Close the window if blocked
+                }
+            };
+
             win.document.body.appendChild(iframe);
         }
 
