@@ -1,6 +1,6 @@
-<a href=index2.html class="button">Return</a>
-<p>Here is a list of proxys that you can use!</p>
 
+<p>Here is a list of proxys that you can use!</p>
+<p>reminder that you cant leave this page due to errors inside it!<p>
 <p>Interstellar</p>
 -------------------------------------------
 
