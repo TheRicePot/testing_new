@@ -1,63 +1,30 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link id="favicon" rel="icon" href="https://pr0j3ct-ch4os.github.io/favicon.ico" type="image/x-icon">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Project Chaos V2 Site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Chaos</title>
 </head>
 <body>
-  <div class="container">
-    <a href=2.html class="button">Page 2 -----> </a>
-    <h1 class="title">Project Chaos V2 Site</h1>
-    <p>The Ultimate Game Website.</p>
-    <div class="boxes">
-      <div class="box">
-        <h2>Current Backups</h2>
-        <p>Here are the current backups right now.If None work, use a proxy.(download the list in 2nd page) </p>
-        <a href="backup-sites.txt" class="button">backups</a>
-      </div>
-      <div class="box">
-        <h2>GBA EMU</h2>
-        <p>Use the Gameboy advance emulator.</p>
-        <a href=gba.html class="button">Enter Chaos</a>
-      </div>
-      <div class="box">
-        <h2>Eaglercraft</h2>
-        <p>Eaglercraft (minecraft but silly) </p>
-        <div>
-          <a href="eagler.html" class="button">Eaglercraft </a>
-        </div>
-        
-      </div>
-    </div>
-    <div class="patch-notes">
-      <h2>Patch Notes</h2>
-      <div class="patch-table">
-        <table>
-          <tr>
-            <th>Date</th>
-            <th>Current Version</th>
-            <th>Changes</th>
-          </tr>
-          <tr>
-          <tr>
-            <td>December 21th</td>
-            <td>0.6.0</td>
-            <td>
-              <ul>
-                <li><span class="orange-text">[!] </span>Proxys will be enabled soon, Automatic About:blank in progress </li>
-              </ul>
-              
-            </td>
-          </tr>
-        </table>
-      </div>
-    </div>
-  </div>
+    <h1>Opening in about:blank...</h1>
 
-  
+    <!-- Your script goes here -->
+    <script>
+        function openGame() {
+            var win = window.open();
+            var url = "https://pr0j3ct-ch4os.github.io/index2.html";
+            var iframe = win.document.createElement('iframe');
+            iframe.style.width = "100%";
+            iframe.style.height = "100%";
+            iframe.style.border = "none";
+            iframe.src = url;
+            win.document.body.appendChild(iframe);
+        }
+
+        // Automatically open the game when the page loads
+        window.onload = function() {
+            openGame();
+        };
+    </script>
 </body>
 </html>
